@@ -4,12 +4,16 @@ body {
     margin: 0;
 }
 
-
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
 
 .header,
 .footer {
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
 }
 
 .three {
@@ -23,4 +27,10 @@ body {
 .center {
     display: flex;
     flex-direction: column;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
