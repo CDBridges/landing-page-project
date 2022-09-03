@@ -34,3 +34,9 @@ ul {
     display: flex;
     gap: 20px;
 }
+
+.one {
+    display: flex;
+    justify-content: center;
+}
+
