@@ -37,6 +37,12 @@ ul {
 
 .one {
     display: flex;
-    justify-content: center;
 }
 
+.left-one {
+    align-self: center;
+}
+
+.fun {
+    width: 350px;
+}
