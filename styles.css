@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    background-color: white;
 }
 
 .header {
@@ -112,9 +113,17 @@ img {
 .quote-text {
     font-size: 36px;
     font-weight: 100;
+    margin-bottom: 0px;
 }
 
 .quote-by {
     text-align: end;
     font-weight: bold;
 }
+
+.four {
+    display: flex;
+    justify-content: center;
+    
+}
+
