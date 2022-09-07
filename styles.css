@@ -101,4 +101,20 @@ img {
 
 .three {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.three p {
+    width: 780px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.quote-by {
+    text-align: end;
+    font-weight: bold;
 }
