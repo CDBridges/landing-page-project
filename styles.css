@@ -10,6 +10,16 @@ body {
     align-items: baseline;
 }
 
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.footer {
+    text-align: center;
+}
+
 .header,
 .footer {
     background-color: #1F2937;
@@ -20,31 +30,47 @@ body {
     background-color: #E5E7EB;
 }
 
-.footer {
-    text-align: center;
-}
-
 .center {
     display: flex;
     flex-direction: column;
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
 .one {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    background-color: #1F2937;
 }
 
 .left-one {
+    width: 400px;
+    padding: 50px;
 }
 
 .fun {
-    width: 500px;
-    height: 300px
+    width: 400px;
+    padding: 50px;
+}
+
+.awesome {
+    margin: 0;
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-size: 48px
+}
+
+.twop {
+    margin: 0;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.butt-one {
+    font-size: 13px;
+    margin-top: 5px;
+    border: 0px;
+    padding: 5px 20px;
+    background: #3882F6;
+    color: white;
+    border-radius: 8px;
 }
