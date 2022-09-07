@@ -26,10 +26,6 @@ ul {
     color: #F9FAF8;
 }
 
-.three {
-    background-color: #E5E7EB;
-}
-
 .center {
     display: flex;
     flex-direction: column;
@@ -47,7 +43,7 @@ ul {
     padding: 50px;
 }
 
-.fun {
+img.fun {
     width: 400px;
     padding: 50px;
 }
@@ -73,4 +69,36 @@ ul {
     background: #3882F6;
     color: white;
     border-radius: 8px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.two h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.two-bottom {
+    display: flex;
+    justify-content: center;
+    width: 650px;
+    gap: 20px;
+}
+
+img {
+    width: 150px;
+    border-radius: 15px;
+}
+.info p {
+    text-align: center;
+    margin-top: 4px;
+}
+
+.three {
+    background-color: #E5E7EB;
 }
