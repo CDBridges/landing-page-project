@@ -91,9 +91,11 @@ img.fun {
     gap: 20px;
 }
 
-img {
+.info img {
     width: 150px;
     border-radius: 15px;
+    border: 2px solid;
+    border-color: #3882F6;
 }
 .info p {
     text-align: center;
@@ -124,6 +126,33 @@ img {
 .four {
     display: flex;
     justify-content: center;
-    
 }
 
+.to-action {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 25px 50px;
+    margin: 25px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.time p {
+    margin: 0;
+    color: #F9FAF8;
+}
+
+.top-time {
+    font-size: 20px;
+}
+.to-action button {
+    font-size: 13px;
+    padding: 5px 20px;
+    background: #3882F6;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid white;
+    
+}
